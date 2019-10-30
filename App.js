@@ -6,6 +6,7 @@ import React,{Component} from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import FontAwesome, { Icons } from "react-native-fontawesome";
 import {
+  ActivityIndicator,
   Button,
   ScrollView,
   Platform,
