@@ -7,6 +7,7 @@ import FontAwesome, { Icons } from "react-native-fontawesome";
 import {Header} from 'react-native-elements';
 
 export default class first extends React.Component{
+	console.log("Pranam");
 	static navigationOptions={
 		tabBarLabel: 'Highlight',
 		drawerIcon: ({tintColor})=> {
