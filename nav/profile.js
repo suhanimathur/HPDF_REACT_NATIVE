@@ -43,15 +43,16 @@ export default class first extends React.Component{
 			flex: 3,
 			marginTop: 300,
 			justifyContent: 'center',
-			alignItems: 'center'
+			alignItems: 'center',
+			wrapText:true
 			}
 		}>
 
 		<Image 
 style={{width: 120, height: 120, marginTop:30, marginBottom:30, alignItems: 'center'}}
 source={{uri:'https://pbs.twimg.com/profile_images/875603699694948354/vR77CGM9_400x400.jpg'}}/>
-		<Text style={{fontSize: 30, color: '#55ACEE', textAlign: 'center'}}>
-		User Profile
+		<Text style={{fontSize: 20, color: '#FFFFF', textAlign: 'center'}}>
+		Profile Section
 		</Text>
 		</View>
 		</View>
