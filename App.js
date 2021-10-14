@@ -29,6 +29,7 @@ import searchs from './nav/searchs';
 import notification from './nav/notification';
 import messages from './nav/messages';
 
+console.log('Hello World');
 
 
 const ScreenNavigator= TabNavigator({
