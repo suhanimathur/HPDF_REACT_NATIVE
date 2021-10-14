@@ -30,7 +30,7 @@ import notification from './nav/notification';
 import messages from './nav/messages';
 
 
-
+console.log('test');
 
 const ScreenNavigator= TabNavigator({
     tab1:{screen:home},
