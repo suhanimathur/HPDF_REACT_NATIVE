@@ -34,9 +34,9 @@ console.log('Hello World');
 
 const ScreenNavigator= TabNavigator({
     tab1:{screen:home},
-    tab2:{screen:searchs},
-    tab3:{screen:notification},
-    tab4:{screen:messages}
+    tab2:{screen:notification},
+    tab3:{screen:messages},
+    tab4:{screen:search}
   },{
     tabBarPosition:'top',
     swipeEnabled:true,
