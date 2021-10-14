@@ -18,8 +18,8 @@ export default class first extends React.Component{
 
 				<MaterialIcons
 				name="person"
-				size={24}
-				style={{color: tintColor}}
+				size={26}
+				style={{color: red}}
 				>
 				</MaterialIcons>
 				);
@@ -40,8 +40,8 @@ export default class first extends React.Component{
 
 		<View style={
 			{
-			flex: 3,
-			marginTop: 300,
+			flex: 2,
+			marginTop: 200,
 			justifyContent: 'center',
 			alignItems: 'center',
 			wrapText:true
