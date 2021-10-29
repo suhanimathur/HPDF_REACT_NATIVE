@@ -42,8 +42,8 @@ export default class five extends React.Component{
 		<Image 
 style={{width: 120, height: 120, marginTop:30, marginBottom:30, alignItems: 'center'}}
 source={{uri:'https://pbs.twimg.com/profile_images/875603699694948354/vR77CGM9_400x400.jpg'}}/>
-		<Text style={{fontSize: 30, color: '#55ACEE', textAlign: 'center'}}>
-		Your App Settings 
+		<Text style={{fontSize: 25, color: '#55ACEE', textAlign: 'center'}}>
+		Twitter Application Settings
 		</Text>
 		</View>
 		</View>
