@@ -31,7 +31,7 @@ export default class second extends React.Component{
 		<View style={
 			{
 			flex: 3,
-			marginTop: 300,
+			marginTop: 250,
 			justifyContent: 'center',
 			alignItems: 'center'
 			}
@@ -41,7 +41,7 @@ export default class second extends React.Component{
 style={{width: 120, height: 120, marginTop:30, marginBottom:30, alignItems: 'center'}}
 source={{uri:'https://pbs.twimg.com/profile_images/875603699694948354/vR77CGM9_400x400.jpg'}}/>
 		<Text style={{fontSize: 30, color: '#55ACEE', textAlign: 'center'}}>
-		List tab
+		List Landing Page
 		</Text>
 		</View>
 		</View>
