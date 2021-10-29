@@ -9,7 +9,7 @@ export default class third extends React.Component{
     tabBarIcon: ({ tintColor }) => (
       <Image
         source={{uri:'https://pbs.twimg.com/profile_images/875603699694948354/vR77CGM9_400x400.jpg'}}
-        style={{width:20,height:20,tintColor:'white'}}>
+        style={{width:80,height:30,tintColor:'blue'}}>
         </Image>
     ),
     }
@@ -25,7 +25,7 @@ export default class third extends React.Component{
     <Image 
 style={{width: 120, height: 120, marginTop:30, marginBottom:30, alignItems: 'center'}}
 source={{uri:'https://pbs.twimg.com/profile_images/875603699694948354/vR77CGM9_400x400.jpg'}}/>
-    <Text style={{fontSize: 30, color: '#55ACEE'}}>
+    <Text style={{fontSize: 25, color: '#55ACEE'}}>
     Your Twitter feed. Please Tweet.
     </Text>
         </View>  
