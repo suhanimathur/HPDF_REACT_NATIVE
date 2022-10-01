@@ -70,6 +70,7 @@ const ScreenNavigator= TabNavigator({
 
 class HomeScreen extends Component {
   console.log("HELLO");
+  console.log("Test);
   render(){
     return(
       
