@@ -38,8 +38,8 @@ const ScreenNavigator= TabNavigator({
     tab3:{screen:messages},
     tab4:{screen:search}
   },{
-    tabBarPosition:'top',
-    swipeEnabled:true,
+    tabBarPosition:'left',
+    swipeEnabled:false,
     tabBarOptions:{
       activeTintColor:'white',
       activeBackgroundColor:'gray',
@@ -59,8 +59,8 @@ const ScreenNavigator= TabNavigator({
       return (
 
         <MaterialIcons
-        name="home"
-        size={24}
+        name="Home"
+        size={20}
         style={{color: tintColor}}
         >
         </MaterialIcons>
