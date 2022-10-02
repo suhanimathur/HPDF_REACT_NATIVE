@@ -74,7 +74,7 @@ class HomeScreen extends Component {
   render(){
     return(
       
-
+// console.log("TEST");
 
 <View style={{ flex: 1, marginTop: 0 }}>
     
