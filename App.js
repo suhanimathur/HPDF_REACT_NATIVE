@@ -69,19 +69,19 @@ const ScreenNavigator= TabNavigator({
   };
 
 class HomeScreen extends Component {
-  console.log("HELLO");
+  console.log("Welcome");
   //console.log("Test);
   render(){
     return(
       
 // console.log("TEST");
 
-<View style={{ flex: 1, marginTop: 0 }}>
+<View style={{ flex: 1, marginTop: 2 }}>
     
     <SearchBar
     ref={(ref) => this.searchBar = ref}
           showOnLoad
-          placeholder='Search Twitter'/>
+          placeholder='Search..'/>
 
     <View style={
       {
