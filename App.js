@@ -59,8 +59,8 @@ const ScreenNavigator= TabNavigator({
       return (
 
         <MaterialIcons
-        name="home"
-        size={24}
+        name="Home"
+        size={20}
         style={{color: tintColor}}
         >
         </MaterialIcons>
@@ -69,7 +69,7 @@ const ScreenNavigator= TabNavigator({
   };
 
 class HomeScreen extends Component {
-  console.log("HELLO");
+  console.log("HELLO , Welcome to the Tet Environment");
   //console.log("Test);
   render(){
     return(
